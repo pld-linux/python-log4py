@@ -10,6 +10,7 @@ Release:	3
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/log4py/%{module}-%{version}.tar.gz
+# Source0-md5:	8bf2880828123b1a7fb8f8c7d38d8ed5
 URL:		http://www.its4you.at/log4py.php
 BuildRequires:	python >= 2.2.1
 BuildRequires:	rpm-pythonprov
