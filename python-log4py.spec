@@ -3,8 +3,8 @@
 
 %define		module	log4py
 
-Summary:	Python IRC library
-Summary(pl):	Modu³y Pythona do osb³ugi IRC
+Summary:	Python logging module
+Summary(pl):	Modu³y Pythona do obs³ugi logowania zdarzeñ
 Name:		python-%{module}
 Version:	0.7.1
 Release:	1
