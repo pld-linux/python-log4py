@@ -5,12 +5,12 @@
 Summary:	Python logging module
 Summary(pl):	Modu³y Pythona do obs³ugi logowania zdarzeñ
 Name:		python-%{module}
-Version:	0.7.1
-Release:	3
+Version:	1.3
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/log4py/%{module}-%{version}.tar.gz
-# Source0-md5:	8bf2880828123b1a7fb8f8c7d38d8ed5
+# Source0-md5:	dc250a8a899c7e70464d683dfc3bdc4f
 URL:		http://www.its4you.at/log4py.php
 BuildRequires:	python >= 2.2.1
 BuildRequires:	rpm-pythonprov
