@@ -11,6 +11,7 @@ License:	MIT
 Group:		Libraries/Python
 Source0:	http://prdownloads.sourceforge.net/log4py/%{module}-%{version}.tar.gz
 URL:		http://www.its4you.at/log4py.php
+BuildRequires:	python >= 2.2.1
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 BuildArch:	noarch
