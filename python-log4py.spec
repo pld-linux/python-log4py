@@ -6,7 +6,7 @@ Summary:	Python logging module
 Summary(pl):	Modu³y Pythona do obs³ugi logowania zdarzeñ
 Name:		python-%{module}
 Version:	1.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/log4py/%{module}-%{version}.tar.gz
@@ -39,10 +39,11 @@ python setup.py build
 %install
 rm -rf $RPM_BUILD_ROOT
 
-PYTHONPATH=$RPM_BUILD_ROOT%{py_sitedir}
+PYTHONPATH=$RPM_BUILD_ROOT%{py_sitescriptdir}
 export PYTHONPATH
 
 python setup.py install --optimize=2 --root=$RPM_BUILD_ROOT
+find $RPM_BUILD_ROOT%{py_sitescriptdir} -type f -name "*.py" | xargs rm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -50,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc doc/{ChangeLog,AUTHORS,LICENSE} readme.txt log4py.conf doc/html
-%{py_sitedir}/*.py[co]
+%{py_sitescriptdir}/*.py[co]
