@@ -43,12 +43,10 @@ export PYTHONPATH
 
 python setup.py install --optimize=2 --root=$RPM_BUILD_ROOT
 
-gzip -9nf doc/{ChangeLog,AUTHORS,LICENSE} readme.txt log4py.conf
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz doc/*.gz doc/html
+%doc doc/{ChangeLog,AUTHORS,LICENSE} readme.txt log4py.conf doc/html
 %{py_sitedir}/*.py[co]
