@@ -9,21 +9,6 @@ Version:	0.7.1
 Release:	1
 License:	MIT
 Group:		Development/Languages/Python
-Group(cs):	Vıvojové prostøedky/Programovací jazyky/Python
-Group(da):	Udvikling/Sprog/Python
-Group(de):	Entwicklung/Sprachen/Python
-Group(es):	Desarrollo/Lenguajes/Python
-Group(fr):	Development/Langues/Python
-Group(is):	Şróunartól/Forritunarmál/Python
-Group(it):	Sviluppo/Linguaggi/Python
-Group(ja):	³«È¯/¸À¸ì/Python
-Group(no):	Utvikling/Programmeringsspråk/Python
-Group(pl):	Programowanie/Jêzyki/Python
-Group(pt):	Desenvolvimento/Linguagens/Python
-Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Python
-Group(sl):	Razvoj/Jeziki/Python
-Group(sv):	Utveckling/Språk/Python
-Group(uk):	òÏÚÒÏÂËÁ/íÏ×É/Python
 Source0:	http://prdownloads.sourceforge.net/log4py/%{module}-%{version}.tar.gz
 URL:		http://www.its4you.at/log4py.php
 BuildRequires:	rpm-pythonprov
