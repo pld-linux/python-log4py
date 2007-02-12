@@ -2,7 +2,7 @@
 %define		module	log4py
 
 Summary:	Python logging module
-Summary(pl):	Modu≥y Pythona do obs≥ugi logowania zdarzeÒ
+Summary(pl.UTF-8):   Modu≈Çy Pythona do obs≈Çugi logowania zdarze≈Ñ
 Name:		python-%{module}
 Version:	1.3
 Release:	3
@@ -21,11 +21,11 @@ Log4Py is a Python logging module similar to log4j. It supports
 logging to files or to stdout/stderr, variable log-levels,
 configurable output formats and configuration via configuration files.
 
-%description -l pl
-Log4Py jest modu≥em jÍzyka Python, podobnym do log4j. Modu≥ umoøliwia
-logowanie zdarzeÒ do plikÛw, na standardowe wyj∂cie oraz standardowe
-wyj∂cie b≥ÍdÛw, tworzenie rÛønych poziomÛw logowania, konfigurowanie
-wy∂wietlanych informacji oraz konfiguracjÍ za pomoc± plikÛw
+%description -l pl.UTF-8
+Log4Py jest modu≈Çem jƒôzyka Python, podobnym do log4j. Modu≈Ç umo≈ºliwia
+logowanie zdarze≈Ñ do plik√≥w, na standardowe wyj≈õcie oraz standardowe
+wyj≈õcie b≈Çƒôd√≥w, tworzenie r√≥≈ºnych poziom√≥w logowania, konfigurowanie
+wy≈õwietlanych informacji oraz konfiguracjƒô za pomocƒÖ plik√≥w
 konfiguracyjnych.
 
 %prep
