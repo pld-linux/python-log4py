@@ -2,7 +2,7 @@
 %define		module	log4py
 
 Summary:	Python logging module
-Summary(pl.UTF-8):   Moduły Pythona do obsługi logowania zdarzeń
+Summary(pl.UTF-8):	Moduły Pythona do obsługi logowania zdarzeń
 Name:		python-%{module}
 Version:	1.3
 Release:	3
