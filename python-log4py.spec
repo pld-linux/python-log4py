@@ -5,7 +5,7 @@ Summary:	Python logging module
 Summary(pl.UTF-8):	Moduły Pythona do obsługi logowania zdarzeń
 Name:		python-%{module}
 Version:	1.3
-Release:	4
+Release:	5
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/log4py/%{module}-%{version}.tar.gz
@@ -50,3 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc doc/{ChangeLog,AUTHORS,LICENSE} readme.txt log4py.conf doc/html
 %{py_sitescriptdir}/*.py[co]
+%{py_sitedir}/*.egg-info
