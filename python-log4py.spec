@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/log4py/%{module}-%{version}.tar.gz
 # Source0-md5:	dc250a8a899c7e70464d683dfc3bdc4f
 URL:		http://www.its4you.at/log4py.php
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python >= 1:2.5
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
